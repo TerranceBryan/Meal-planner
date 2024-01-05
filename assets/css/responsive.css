@@ -1,0 +1,68 @@
+
+  /*------------------------------------------------ */
+  /*------------- RESPONSIVENESS START-------------- */
+  /*------------------------------------------------ */
+
+
+  @media (max-width: 768px){
+        .navigation {
+            width: 70px; /* Adjust as needed */
+        }
+
+        .navigation.active {
+            width: 100%;
+        }
+
+        main {
+            margin-left: 0;
+        }
+
+        .toggle {
+            display: block;
+        }
+    
+      .navbar{
+          background-color: #060606d3;
+          padding: 2rem;
+          position: absolute;
+          top:99%;
+          left: 0;
+          right: 0;
+          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+          transition: .3s linear;
+      }
+      .navbar ul{
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+      .navbar ul a{
+          text-align: center;
+          margin: 1rem;
+      }
+      #menu-bar{
+          display: inline-block;
+          transition: .2s linear;
+          color: aliceblue;
+      }
+      .fa-times{
+          transform: rotate(180deg);
+      }
+      .navbar.active{
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+      }
+      .header-btn{
+        position: relative;
+        left: 24%;
+      }
+  }
+  @media (max-width: 600px){
+  }
+  
+  
+  
+    /*------------------------------------------------ */
+    /*------------- RESPONSIVENESS ENDS-------------- */
+    /*------------------------------------------------ */
+  
+  

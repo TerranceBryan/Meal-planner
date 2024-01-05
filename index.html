@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Meal Planner</title>
+    <link rel="icon" type="image/x-icon" href=".\images\icons\favicon.ico">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+
+    <!--Sidebar container Starts -->
+
+    <div class="navigation">
+        <ul>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="fast-food-outline"></ion-icon></span>
+                    <span class="title">Eat<i>dish</i></span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                    <span class="title">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                    <span class="title">Customer</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="chatbubble-outline"></ion-icon></span>
+                    <span class="title">Messages</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
+                    <span class="title">Help</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                    <span class="title">Setting</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <span class="title">Password</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+                    <span class="title">Sign Out</span>
+                </a>
+            </li>
+        </ul>
+        <div class="toggle"></div>
+    </div>
+
+    <!--Sidebar container ends -->
+
+    <!--Main container Starts -->
+    <div class="main content-body">
+
+        <!--Navbar container Starts -->
+        <div class="home_content">
+                <div class="header">
+                    <nav class="navbar">
+                        <ul>
+                            <li class="navbar-item">
+                                <a class="nav-link active" aria-current="page" href="#">Main</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a class="nav-link" href="#">Delivery</a>
+                            </li>
+                            <li class="navbar-item bx-search">
+                                <i class="fas fa-search"></i>
+                                <input type="search" placeholder="Jump to ..." class="search-btn">
+                            </li>
+
+                            <li class="navbar-item cart">
+                                <a href="#">
+                                    <i class="fas fa-shopping-cart" id="cart"></i>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <div id="menu-bar" class="fas fa-bars"></div>
+                    </nav>
+                </div>
+        </div>
+        <!--Navbar container ends -->
+
+
+
+        <!--Week Plan container Starts -->
+
+        <div class="plan-container">
+            <div class="week-plan-start">
+                <div class="week-plan">
+                    <div class="week-plan-header">
+                        <div class="week-plan-text">
+                            <h1>Create a weekly meal plan</h1>
+                            <h3>Select a preferable programme</h3>
+                        </div>
+                        <div class="ellipsis">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+        
+                    <div class="meal-plan">
+                        <div class="plan">
+                            <h4>Detox</h4>
+                            <h3>750 kcal</h3>  
+                        </div>
+        
+                        <div class="plan">
+                            <h4>Decreasing</h4>
+                            <h3>750 kcal</h3>  
+                        </div>
+        
+                        <div class="plan">
+                            <h4>Decreasing</h4>
+                            <h3>1000 kcal</h3>  
+                        </div>
+        
+                        <div class="plan">
+                            <h4>Decreasing</h4>
+                            <h3>1500 kcal</h3>  
+                        </div>
+        
+                        <div class="plan">
+                            <h4>Balance</h4>
+                            <h3>2000 kcal</h3>  
+                        </div>
+        
+                        <div class="fas fa-angle-right"></div>
+                    </div>
+                </div>
+
+                <div class="chef chef-bg-purple">
+                    <div class="chef-body">
+                        <div class="chef-text">
+                            <h2>Special Offer</h2>
+                            <h3>from our chef</h3>
+                            
+                            <a href="#" class="btn">View now</a>
+                        </div>
+                    </div>
+                    <div class="chef-image">
+                        <img src="images\regular\chef.png" alt="Our Chef">
+                    </div>
+                </div>
+            </div>
+            
+
+
+            <div class="food-category">
+                <ul>
+                    <a href="#">
+                        <li>
+                            <i class="fas fa-seedling" style="color: green;"></i>
+                            Vegan
+                        </li>
+                    </a>
+
+                    <a href="#">
+                        <li>
+                            <i class="fas fa-carrot" style="color: rgb(227, 43, 43);"></i>
+                            Healthy
+                        </li>
+                    </a>
+
+                    <a href="#">
+                        <li>
+                            <i class="fas fa-wheat-awn" style="color: brown;"></i>
+                            Grains
+                        </li>
+                    </a>
+
+                    <a href="#">
+                        <li>
+                            <i class="fas fa-pepper-hot" style="color: rgb(250, 5, 5);"></i>
+                            Spicy
+                        </li>
+                    </a>
+
+                   <a href="#">
+                        <li>
+                            <i class="fas fa-drumstick-bite" style="color: brown;"></i>
+                            High Carb
+                        </li>
+                   </a>
+                    
+                   <a href="#">
+                        <li>
+                            <i class="fas fa-shrimp" style="color: rgb(216, 145, 11);"></i>
+                            Seafood
+                        </li>
+                   </a>
+                    
+                   <a href="#">
+                        <li>
+                            See all
+                        </li>
+                   </a>
+                </ul>
+            </div>
+
+            <div class="food-container">
+                <div class="food-box box-orange">
+                    <div class="box-image">
+                        <img src="images\food\breakfast_1.png" alt="First Breakfast">
+                    </div>
+
+                    <div class="box-text">
+                        <h2 class="head-orange">
+                            Breakfast
+                        </h2>
+                        <p>Pancakes with fresh berries and caramel sauce</p>
+                    </div>
+
+                    <div class="box-kcal">
+                        587 kcal, 180g
+                    </div>
+
+                    <button id="submit-btn" class="submit-btn">Change</button>
+                </div>
+
+                <div class="food-box box-greenish">
+                    <div class="box-image">
+                        <img src="images\food\breakfast_2.png" alt="Second Breakfast">
+                    </div>
+
+                    <div class="box-text">
+                        <h2 class="head-green">
+                           2<sup>nd</sup> Breakfast
+                        </h2>
+                        <p>Grilled toast with Pickle and eggs</p>
+                    </div>
+
+                    <div class="box-kcal">
+                        587 kcal, 180g
+                    </div>
+
+                    <button id="submit-btn" class="submit-btn">Change</button>
+                </div>
+
+                <div class="food-box box-light-blue">
+                    <div class="box-image">
+                        <img src="images\food\breakfast_2.png" alt="Lunch">
+                    </div>
+
+                    <div class="box-text">
+                        <h2 class="head-blue">
+                            Lunch
+                        </h2>
+                        <p>CheeseBurger with Bacon and fried egg</p>
+                    </div>
+
+                    <div class="box-kcal">
+                        587 kcal, 180g
+                    </div>
+
+                    <button id="submit-btn" class="submit-btn">Change</button>
+                </div>
+
+                <div class="food-box box-light-redish">
+                    <div class="box-image">
+                        <img src="images\food\supper.png" alt="Supper">
+                    </div>
+
+                    <div class="box-text">
+                        <h2 class="head-red">
+                            Supper
+                        </h2>
+                        <p>Ruccola salad with cherry tomatoes</p>
+                    </div>
+
+                    <div class="box-kcal">
+                        587 kcal, 180g
+                    </div>
+
+                    <button id="submit-btn" class="submit-btn">Change</button>
+                </div>
+
+                <div class="food-box box-blue">
+                    <div class="box-image">
+                        <img src="images\food\supper.png" alt="Dinner">
+                    </div>
+
+                    <div class="box-text">
+                        <h2 class="head-orange">
+                            Dinner
+                        </h2>
+                        <p>Super light salmon salad with avocado</p>
+                    </div>
+
+                    <div class="box-kcal">
+                        587 kcal, 180g
+                    </div>
+
+                    <button id="submit-btn" class="submit-btn">Change</button>
+                </div>
+
+                <div class="box-empty">
+                    <div class="empty">
+                        <i class="fas fa-plus"></i>
+                        <p>Add Drink</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Week Plan container ends -->
+
+    </div>
+    <!--Main container ends -->
+
+
+
+
+</body>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="assets\js\main.js"></script>
+</html>
